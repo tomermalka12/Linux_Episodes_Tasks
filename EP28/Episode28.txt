@@ -1,0 +1,5 @@
+  378  sudo useradd -m -d /home/serena -c "Serena Williams" serena
+  379  cat /etc/passwd
+  380  sudo useradd -m -d /home/venus -c "Venus Williams" -s /bin/bash venus
+  381  cat /etc/passwd
+

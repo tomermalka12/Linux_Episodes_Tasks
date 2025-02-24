@@ -1,0 +1,13 @@
+  352  who
+  353  whoami 
+  354  w
+  355  id
+  356  cat /etc/passwd
+  359  useradd testuser
+  360  sudo useradd testuser
+  361  su - testuser 
+  362  passwd testuser
+  363  sudo passwd testuser
+  364  su - testuser 
+  365  su -
+  366  history 
