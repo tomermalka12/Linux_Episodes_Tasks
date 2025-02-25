@@ -1,5 +1,24 @@
   378  sudo useradd -m -d /home/serena -c "Serena Williams" serena
   379  cat /etc/passwd
   380  sudo useradd -m -d /home/venus -c "Venus Williams" -s /bin/bash venus
-  381  cat /etc/passwd
-
+  214  cat /etc/passwd | grep serena + venus
+  217  sudo cat /etc/shadow | grep -e serena -e venus
+  219  sudo cat /etc/group | grep -e serena -e venus
+  222  sudo find /home/ | grep -e serena -e venus
+  223  sudo useradd -m -d /home/einstime -s /bin/date einstime
+  224  su - einstime 
+  236  sudo echo hii > /etc/skel/welcome.txt
+  243  ll /home/tomerm/
+  246  sudo ll /home/serena/
+  247  cd 
+  248  cd Desktop/Projects/Linux_Episodes_Tasks/EP28
+  249  ll
+  251  sudo useradd -m -d /home/test/ test
+  259  sudo usermod -s /bin/bash test 
+  260  su - test
+  267  sudo userdel -r test 
+  268  tail -5 /etc/passwd
+  270  ls -l /etc/passwd
+  272  sudo usermod -s /bin/bash serena 
+  273  tail -5 /etc/passwd
+  274  history 
