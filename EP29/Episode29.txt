@@ -1,2 +1,24 @@
- 285  sudo passwd serena 
- 286  sudo passwd venus
+  579  sudo passwd serena
+  580  sudo passwd venus 
+  581  usermod --help
+  582  cat /etc/shadow | tail -5
+  583  sudo cat /etc/shadow | tail -5
+  584  usermod -L venus 
+  585  sudo usermod -L venus 
+  586  sudo cat /etc/shadow | tail -5
+  587  sudo passwd -d serena 
+  588  sudo cat /etc/shadow | tail -5
+  589  su - serena
+  590  chage --help
+  591  sudo chage -M 10 serena 
+  592  sudo chage -l serena 
+  595  sudo vim /etc/login.defs 
+  598  chsh --list-shells
+  599  cat /etc/shells 
+  600  comm --help
+  601  which chsh
+  603  useradd --help
+  606  sudo cat /etc/shadow | grep serena
+  608  sudo passwd -S serena
+  609  history 
+
