@@ -1,0 +1,5 @@
+  612  ls -la /etc/pro* /etc/bash*
+  613  alias
+  614  printenv
+  613  history 
+  yes it is matter
