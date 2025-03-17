@@ -1,0 +1,13 @@
+591  sudo groupadd tennis ; groupadd football ; groupadd sports
+592  sudo groupadd football ; groupadd sports
+593  sudo groupadd sports
+594  tail -5 /etc/group
+598  sudo usermod -aG tennis,sports venus
+601  sudo vigr -g
+602  id serena 
+606  sudo gpasswd -A venus sports 
+607  su - venus
+608  sudo passwd -d venus 
+609  su - venus  
+610 gpasswd -a serena sports 
+611 history 
